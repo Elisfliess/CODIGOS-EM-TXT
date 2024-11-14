@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    border: 2px solid green;
+    background-color: beige;
+}
+
+  
+  /* INICIO DA PÁGINA WEB CONTATO */
+
+  .container_doe{
+    max-width: 1500px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+   padding: 25px 0 25px 0;
+    align-items: center;
+    margin: 0 auto;
+
+  }
+
+  .paragrafo1{
+    max-width: 1500px;
+    color: rgb(49, 49, 202);
+    text-indent: 30px;
+    text-transform: uppercase;
+  }
+
+
+  /**/
+
+  
+  .principal{
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}

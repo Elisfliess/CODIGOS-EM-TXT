@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- INICIO DA PÁGINA WEB CONTATO  -->
+
+    <section class="container_doe">
+
+        <h1>AJUDE-NOS A SALVAR VIDAS!</h1>
+
+        <p>
+            Nosso trabalho de resgate de animais depende do apoio de pessoas generosas como você.
+            Com o aumento de animais em situação de rua e abandono, precisamos de ajuda para cobrir despesas essenciais
+            como: alimentação, tratamentos veterinários, vacinas, castrações, medicamentos e cuidados diários.
+            Cada contribuição, por menor que seja, faz uma enorme diferença na vida desses animais e seu apoio permite
+            que possamos oferecer uma segunda chance a cães e gatos que foram resgatados de situações de risco e
+            negligência.
+        </p>
+
+
+
+
+        <h2> COMO AJUDAR? </h2>
+
+
+
+        <div class="lista-comoAjudar">
+        <ul>
+            <li>Doe qualquer valor que puder, todo recurso é bem-vindo.</li>
+            <li>Doe itens como ração, medicamentos, caminhas, entre outros.</li>
+            <li>Compartilhe essa campanha com amigos e familiares! </li>
+
+        </ul>
+    </div>
+
+
+
+
+
+        <div class="banner">
+            <img class="bannerPrincipal" src="./bannerdogd.png" alt="">
+        </div>
+
+        <div>
+            <h2 class="container_titulo">DOE.</h2>
+            <class="container_p>
+            <p>Para doar, entre em contato conosco ou envie sua contribuição para nossa conta bancária
+                ou chave Pix:
+                </p>
+        </div>
+
+
+        <div class="wrapper flex">
+            <div class="img-doe">
+                <div class="item-0"> <img src="../POPUP/Logo_pix.png" alt="some text" width=250 height=250></div>
+                <div class="item-1"> <img src="../POPUP/QRCODE.png" alt="some text" width=250 height=250></div>
+            </div>
+
+            <p>
+                Cada doação é um ato de amor e esperança!
+                Agradecemos por apoiar nossa causa e nos ajudar a transformar a vida de cada animal resgatado.
+                Com sua ajuda, podemos continuar essa missão e garantir que eles recebam o cuidado e o amor que merecem.
+            </p>
+
+            </p>
+    </section>
+
+    <div class="box">
+        <a class="button" href="#popup1">ENTRE EM CONTATO</a>
+    </div>
+
+
+    <!-- INICIO DO POP-UP CONTATO -->
+
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>ENTRE EM CONTATO</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                Estamos aqui para responder suas duvidas. Veja como você pode nos contatar.
+            </div>
+
+            <div class="lista-contato">
+                <ul>
+                    <li> Telefone: (11 9 9999-9999)</li>
+                    <li>E-mail: contato@exemplo.</li>
+                    <li> Endereço: Rua Exemplo, 123, Cidade, Estado. </li>
+                    <li>Horário de Atendimento: Segunda a Sexta, das 9h às 18h</li>
+                </ul>
+            </div>
+
+            <img src="./QRCODE.png" alt="some text" width=150 height=250>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
